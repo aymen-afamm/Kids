@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Enhanced child-friendly pastel colors -->
+    <color name="primary_blue">#A8D8EA</color>
+    <color name="primary_pink">#FFB3BA</color>
+    <color name="primary_green">#B5EAD7</color>
+    <color name="primary_yellow">#FFDFBA</color>
+    <color name="primary_orange">#FFCAB0</color>
+    <color name="primary_purple">#C7CEEA</color>
+    <color name="primary_mint">#B8E6B8</color>
+    <color name="primary_peach">#FFD3A5</color>
+    
+    <!-- Gradient backgrounds -->
+    <color name="background_gradient_start">#FFF8E1</color>
+    <color name="background_gradient_end">#F3E5F5</color>
+    <color name="background_light">#FAFAFA</color>
+    <color name="card_background">#FFFFFF</color>
+    
+    <!-- Text colors -->
+    <color name="text_primary">#37474F</color>
+    <color name="text_secondary">#78909C</color>
+    <color name="text_white">#FFFFFF</color>
+    
+    <!-- Button states -->
+    <color name="button_pressed">#E1F5FE</color>
+    <color name="shadow_light">#E0E0E0</color>
+</resources>

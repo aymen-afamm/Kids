@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Large rounded button style -->
+    <style name="LargeButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:layout_margin">@dimen/spacing_large</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_rounded</item>
+        <item name="android:elevation">@dimen/card_elevation</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    
+    <!-- Small button style for tracing controls -->
+    <style name="SmallButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/small_button_height</item>
+        <item name="android:layout_margin">@dimen/spacing_small</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_rounded</item>
+        <item name="android:elevation">@dimen/card_elevation</item>
+    </style>
+    
+    <!-- Letter card style -->
+    <style name="LetterCard">
+        <item name="android:layout_width">@dimen/letter_card_size</item>
+        <item name="android:layout_height">@dimen/letter_card_size</item>
+        <item name="android:layout_margin">@dimen/spacing_small</item>
+        <item name="android:background">@drawable/card_rounded</item>
+        <item name="android:elevation">@dimen/card_elevation</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/letter_text_size</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+    </style>
+    
+    <!-- Title text style -->
+    <style name="TitleText">
+        <item name="android:textSize">@dimen/text_size_title</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_xlarge</item>
+    </style>
+    
+    <!-- Welcome title style -->
+    <style name="WelcomeTitle">
+        <item name="android:textSize">@dimen/text_size_huge</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_xxlarge</item>
+    </style>
+    
+    <!-- Instruction text style -->
+    <style name="InstructionText">
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_medium</item>
+    </style>
+</resources>

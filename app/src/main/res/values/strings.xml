@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Kids Learning</string>
+    
+    <!-- Home Screen -->
+    <string name="arabic_alphabet">🌙 Arabic Alphabet</string>
+    <string name="french_alphabet">🇫🇷 French Alphabet</string>
+    <string name="welcome_title">Welcome to Kids Learning!</string>
+    <string name="choose_language">Choose your alphabet to start learning</string>
+    
+    <!-- Alphabet Screen -->
+    <string name="arabic_letters">🌙 Arabic Letters</string>
+    <string name="french_letters">🇫🇷 French Letters</string>
+    <string name="tap_letter_instruction">Tap any letter to hear its sound and start tracing</string>
+    
+    <!-- Tracing Screen -->
+    <string name="clear_button">🗑️ Clear</string>
+    <string name="repeat_sound">🔊 Repeat</string>
+    <string name="next_letter">➡️ Next</string>
+    <string name="great_job">🎉 Great job! You finished all letters! 🎉</string>
+    <string name="trace_instruction">Trace the letter with your finger</string>
+</resources>

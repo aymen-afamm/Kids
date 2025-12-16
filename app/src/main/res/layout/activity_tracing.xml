@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    android:padding="@dimen/spacing_large">
+
+    <TextView
+        android:id="@+id/currentLetter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/tracing_letter_size"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/spacing_medium"
+        android:background="@drawable/card_rounded"
+        android:padding="@dimen/spacing_medium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trace_instruction"
+        style="@style/InstructionText" />
+
+    <com.example.toyorljanna.ui.TracingView
+        android:id="@+id/tracingView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/card_rounded"
+        android:layout_margin="@dimen/tracing_area_margin" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/spacing_medium">
+
+        <Button
+            android:id="@+id/btnClear"
+            android:text="@string/clear_button"
+            style="@style/SmallButton"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnRepeatSound"
+            android:text="@string/repeat_sound"
+            style="@style/SmallButton"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:text="@string/next_letter"
+            style="@style/SmallButton"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

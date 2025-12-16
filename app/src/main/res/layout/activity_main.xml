@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient"
+    android:padding="@dimen/spacing_xlarge"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_title"
+        style="@style/WelcomeTitle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_language"
+        style="@style/InstructionText" />
+
+    <Button
+        android:id="@+id/btnArabicAlphabet"
+        android:text="@string/arabic_alphabet"
+        android:background="@drawable/button_arabic"
+        style="@style/LargeButton"
+        android:layout_marginBottom="@dimen/spacing_large" />
+
+    <Button
+        android:id="@+id/btnFrenchAlphabet"
+        android:text="@string/french_alphabet"
+        android:background="@drawable/button_french"
+        style="@style/LargeButton" />
+
+</LinearLayout>

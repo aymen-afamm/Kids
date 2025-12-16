@@ -1,0 +1,274 @@
+{
+  "alphabets": [
+    {
+      "id": 1,
+      "character": "أ",
+      "language": "arabic"
+    },
+    {
+      "id": 2,
+      "character": "ب",
+      "language": "arabic"
+    },
+    {
+      "id": 3,
+      "character": "ت",
+      "language": "arabic"
+    },
+    {
+      "id": 4,
+      "character": "ث",
+      "language": "arabic"
+    },
+    {
+      "id": 5,
+      "character": "ج",
+      "language": "arabic"
+    },
+    {
+      "id": 6,
+      "character": "ح",
+      "language": "arabic"
+    },
+    {
+      "id": 7,
+      "character": "خ",
+      "language": "arabic"
+    },
+    {
+      "id": 8,
+      "character": "د",
+      "language": "arabic"
+    },
+    {
+      "id": 9,
+      "character": "ذ",
+      "language": "arabic"
+    },
+    {
+      "id": 10,
+      "character": "ر",
+      "language": "arabic"
+    },
+    {
+      "id": 11,
+      "character": "ز",
+      "language": "arabic"
+    },
+    {
+      "id": 12,
+      "character": "س",
+      "language": "arabic"
+    },
+    {
+      "id": 13,
+      "character": "ش",
+      "language": "arabic"
+    },
+    {
+      "id": 14,
+      "character": "ص",
+      "language": "arabic"
+    },
+    {
+      "id": 15,
+      "character": "ض",
+      "language": "arabic"
+    },
+    {
+      "id": 16,
+      "character": "ط",
+      "language": "arabic"
+    },
+    {
+      "id": 17,
+      "character": "ظ",
+      "language": "arabic"
+    },
+    {
+      "id": 18,
+      "character": "ع",
+      "language": "arabic"
+    },
+    {
+      "id": 19,
+      "character": "غ",
+      "language": "arabic"
+    },
+    {
+      "id": 20,
+      "character": "ف",
+      "language": "arabic"
+    },
+    {
+      "id": 21,
+      "character": "ق",
+      "language": "arabic"
+    },
+    {
+      "id": 22,
+      "character": "ك",
+      "language": "arabic"
+    },
+    {
+      "id": 23,
+      "character": "ل",
+      "language": "arabic"
+    },
+    {
+      "id": 24,
+      "character": "م",
+      "language": "arabic"
+    },
+    {
+      "id": 25,
+      "character": "ن",
+      "language": "arabic"
+    },
+    {
+      "id": 26,
+      "character": "ه",
+      "language": "arabic"
+    },
+    {
+      "id": 27,
+      "character": "و",
+      "language": "arabic"
+    },
+    {
+      "id": 28,
+      "character": "ي",
+      "language": "arabic"
+    },
+    {
+      "id": 29,
+      "character": "A",
+      "language": "french"
+    },
+    {
+      "id": 30,
+      "character": "B",
+      "language": "french"
+    },
+    {
+      "id": 31,
+      "character": "C",
+      "language": "french"
+    },
+    {
+      "id": 32,
+      "character": "D",
+      "language": "french"
+    },
+    {
+      "id": 33,
+      "character": "E",
+      "language": "french"
+    },
+    {
+      "id": 34,
+      "character": "F",
+      "language": "french"
+    },
+    {
+      "id": 35,
+      "character": "G",
+      "language": "french"
+    },
+    {
+      "id": 36,
+      "character": "H",
+      "language": "french"
+    },
+    {
+      "id": 37,
+      "character": "I",
+      "language": "french"
+    },
+    {
+      "id": 38,
+      "character": "J",
+      "language": "french"
+    },
+    {
+      "id": 39,
+      "character": "K",
+      "language": "french"
+    },
+    {
+      "id": 40,
+      "character": "L",
+      "language": "french"
+    },
+    {
+      "id": 41,
+      "character": "M",
+      "language": "french"
+    },
+    {
+      "id": 42,
+      "character": "N",
+      "language": "french"
+    },
+    {
+      "id": 43,
+      "character": "O",
+      "language": "french"
+    },
+    {
+      "id": 44,
+      "character": "P",
+      "language": "french"
+    },
+    {
+      "id": 45,
+      "character": "Q",
+      "language": "french"
+    },
+    {
+      "id": 46,
+      "character": "R",
+      "language": "french"
+    },
+    {
+      "id": 47,
+      "character": "S",
+      "language": "french"
+    },
+    {
+      "id": 48,
+      "character": "T",
+      "language": "french"
+    },
+    {
+      "id": 49,
+      "character": "U",
+      "language": "french"
+    },
+    {
+      "id": 50,
+      "character": "V",
+      "language": "french"
+    },
+    {
+      "id": 51,
+      "character": "W",
+      "language": "french"
+    },
+    {
+      "id": 52,
+      "character": "X",
+      "language": "french"
+    },
+    {
+      "id": 53,
+      "character": "Y",
+      "language": "french"
+    },
+    {
+      "id": 54,
+      "character": "Z",
+      "language": "french"
+    }
+  ]
+}
