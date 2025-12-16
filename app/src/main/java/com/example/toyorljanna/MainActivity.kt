@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
     private fun setupButtons() {
         val btnArabic = findViewById<Button>(R.id.btnArabicAlphabet)
         val btnFrench = findViewById<Button>(R.id.btnFrenchAlphabet)
+        val btnWriting = findViewById<Button>(R.id.btnWriting)
         
         btnArabic.setOnClickListener {
             startAlphabetActivity("arabic")
@@ -31,6 +32,10 @@ class MainActivity : AppCompatActivity() {
         
         btnFrench.setOnClickListener {
             startAlphabetActivity("french")
+        }
+        
+        btnWriting.setOnClickListener {
+            startWritingActivity()
         }
     }
     
@@ -40,6 +45,14 @@ class MainActivity : AppCompatActivity() {
     private fun startAlphabetActivity(language: String) {
         val intent = Intent(this, AlphabetActivity::class.java)
         intent.putExtra("language", language)
+        startActivity(intent)
+    }
+    
+    /**
+     * Start writing activity
+     */
+    private fun startWritingActivity() {
+        val intent = Intent(this, com.example.toyorljanna.ui.WritingActivity::class.java)
         startActivity(intent)
     }
 }

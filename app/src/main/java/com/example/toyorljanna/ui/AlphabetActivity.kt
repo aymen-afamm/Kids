@@ -2,6 +2,7 @@ package com.example.toyorljanna.ui
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
@@ -35,6 +36,7 @@ class AlphabetActivity : AppCompatActivity() {
         
         setupUI()
         loadLetters()
+        setupWritingButton()
     }
     
     /**
@@ -78,6 +80,18 @@ class AlphabetActivity : AppCompatActivity() {
         intent.putExtra("language", language)
         intent.putExtra("letterId", letter.id)
         startActivity(intent)
+    }
+    
+    /**
+     * Setup writing button
+     */
+    private fun setupWritingButton() {
+        val btnWriting = findViewById<Button>(R.id.btnWriting)
+        btnWriting.setOnClickListener {
+            val intent = Intent(this, WritingActivity::class.java)
+            intent.putExtra("language", language)
+            startActivity(intent)
+        }
     }
     
     override fun onDestroy() {

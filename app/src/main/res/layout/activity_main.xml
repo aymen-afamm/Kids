@@ -23,6 +23,8 @@
     <Button
         android:id="@+id/btnArabicAlphabet"
         android:text="@string/arabic_alphabet"
+        android:drawableStart="@drawable/ic_arabic"
+        android:drawablePadding="@dimen/spacing_medium"
         android:background="@drawable/button_arabic"
         style="@style/LargeButton"
         android:layout_marginBottom="@dimen/spacing_large" />
@@ -30,7 +32,18 @@
     <Button
         android:id="@+id/btnFrenchAlphabet"
         android:text="@string/french_alphabet"
+        android:drawableStart="@drawable/ic_french"
+        android:drawablePadding="@dimen/spacing_medium"
         android:background="@drawable/button_french"
+        style="@style/LargeButton"
+        android:layout_marginBottom="@dimen/spacing_large" />
+
+    <Button
+        android:id="@+id/btnWriting"
+        android:text="@string/writing_practice"
+        android:drawableStart="@drawable/ic_write"
+        android:drawablePadding="@dimen/spacing_medium"
+        android:background="@drawable/button_writing"
         style="@style/LargeButton" />
 
 </LinearLayout>

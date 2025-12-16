@@ -13,9 +13,18 @@
     <string name="tap_letter_instruction">Tap any letter to hear its sound and start tracing</string>
     
     <!-- Tracing Screen -->
-    <string name="clear_button">🗑️ Clear</string>
-    <string name="repeat_sound">🔊 Repeat</string>
-    <string name="next_letter">➡️ Next</string>
+    <string name="clear_button">Clear</string>
+    <string name="repeat_sound">Repeat</string>
+    <string name="next_letter">Next</string>
     <string name="great_job">🎉 Great job! You finished all letters! 🎉</string>
     <string name="trace_instruction">Trace the letter with your finger</string>
+    
+    <!-- Writing Screen -->
+    <string name="writing_practice">✏️ Writing Practice</string>
+    <string name="practice_writing">Practice Writing</string>
+    <string name="writing_title">✏️ Writing Practice</string>
+    <string name="writing_instruction">Write letters, words, or sentences below</string>
+    <string name="writing_hint">Start writing here...</string>
+    <string name="clear_text">Clear</string>
+    <string name="speak_text">Speak</string>
 </resources>

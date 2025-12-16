@@ -21,8 +21,20 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:padding="@dimen/spacing_medium"
         android:clipToPadding="false" />
+
+    <Button
+        android:id="@+id/btnWriting"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/small_button_height"
+        android:text="@string/practice_writing"
+        android:drawableStart="@drawable/ic_write"
+        android:drawablePadding="@dimen/spacing_medium"
+        android:background="@drawable/button_rounded"
+        style="@style/SmallButton"
+        android:layout_margin="@dimen/spacing_medium" />
 
 </LinearLayout>

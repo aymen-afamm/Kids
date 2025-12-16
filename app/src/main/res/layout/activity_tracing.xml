@@ -8,21 +8,21 @@
 
     <TextView
         android:id="@+id/currentLetter"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="@dimen/tracing_letter_size"
-        android:textColor="@color/text_primary"
-        android:textStyle="bold"
+        android:layout_width="345dp"
+        android:layout_height="142dp"
         android:layout_marginBottom="@dimen/spacing_medium"
         android:background="@drawable/card_rounded"
-        android:padding="@dimen/spacing_medium" />
+        android:gravity="center"
+        android:padding="@dimen/spacing_medium"
+        android:textColor="@color/text_primary"
+        android:textSize="@dimen/tracing_letter_size"
+        android:textStyle="bold" />
 
     <TextView
-        android:layout_width="match_parent"
+        style="@style/InstructionText"
+        android:layout_width="358dp"
         android:layout_height="wrap_content"
-        android:text="@string/trace_instruction"
-        style="@style/InstructionText" />
+        android:text="@string/trace_instruction" />
 
     <com.example.toyorljanna.ui.TracingView
         android:id="@+id/tracingView"
@@ -42,18 +42,24 @@
         <Button
             android:id="@+id/btnClear"
             android:text="@string/clear_button"
+            android:drawableStart="@drawable/ic_clear"
+            android:drawablePadding="@dimen/spacing_tiny"
             style="@style/SmallButton"
             android:layout_weight="1" />
 
         <Button
             android:id="@+id/btnRepeatSound"
             android:text="@string/repeat_sound"
+            android:drawableStart="@drawable/ic_sound"
+            android:drawablePadding="@dimen/spacing_tiny"
             style="@style/SmallButton"
             android:layout_weight="1" />
 
         <Button
             android:id="@+id/btnNext"
             android:text="@string/next_letter"
+            android:drawableStart="@drawable/ic_next"
+            android:drawablePadding="@dimen/spacing_tiny"
             style="@style/SmallButton"
             android:layout_weight="1" />
 
