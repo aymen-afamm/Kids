@@ -12,12 +12,12 @@
         <shape android:shape="rectangle">
             <corners android:radius="@dimen/button_corner_radius" />
             <gradient
-                android:startColor="@color/primary_yellow"
-                android:endColor="@color/primary_peach"
+                android:startColor="@color/primary_pink"
+                android:endColor="@color/primary_purple"
                 android:angle="90" />
             <stroke
                 android:width="3dp"
-                android:color="@color/primary_indigo" />
+                android:color="@color/primary_coral" />
         </shape>
     </item>
 </layer-list>

@@ -31,7 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/small_button_height"
         android:text="@string/practice_writing"
-        android:drawableStart="@drawable/ic_write"
+        android:drawableStart="@drawable/ic_write_enhanced"
         android:drawablePadding="@dimen/spacing_medium"
         android:background="@drawable/button_rounded"
         style="@style/SmallButton"

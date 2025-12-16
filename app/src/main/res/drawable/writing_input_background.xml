@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Shadow -->
+    <item android:top="4dp" android:left="4dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/card_corner_radius" />
+            <solid android:color="@color/shadow_light" />
+        </shape>
+    </item>
+    <!-- Input background -->
+    <item android:bottom="4dp" android:right="4dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/card_corner_radius" />
+            <solid android:color="@color/white" />
+            <stroke
+                android:width="3dp"
+                android:color="@color/primary_blue" />
+        </shape>
+    </item>
+</layer-list>

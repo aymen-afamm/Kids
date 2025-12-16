@@ -42,24 +42,24 @@
         <Button
             android:id="@+id/btnClear"
             android:text="@string/clear_button"
-            android:drawableStart="@drawable/ic_clear"
-            android:drawablePadding="@dimen/spacing_tiny"
+            android:drawableStart="@drawable/ic_clear_large"
+            android:drawablePadding="@dimen/spacing_small"
             style="@style/SmallButton"
             android:layout_weight="1" />
 
         <Button
             android:id="@+id/btnRepeatSound"
             android:text="@string/repeat_sound"
-            android:drawableStart="@drawable/ic_sound"
-            android:drawablePadding="@dimen/spacing_tiny"
+            android:drawableStart="@drawable/ic_sound_large"
+            android:drawablePadding="@dimen/spacing_small"
             style="@style/SmallButton"
             android:layout_weight="1" />
 
         <Button
             android:id="@+id/btnNext"
             android:text="@string/next_letter"
-            android:drawableStart="@drawable/ic_next"
-            android:drawablePadding="@dimen/spacing_tiny"
+            android:drawableStart="@drawable/ic_next_large"
+            android:drawablePadding="@dimen/spacing_small"
             style="@style/SmallButton"
             android:layout_weight="1" />
 

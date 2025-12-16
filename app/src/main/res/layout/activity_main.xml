@@ -23,7 +23,7 @@
     <Button
         android:id="@+id/btnArabicAlphabet"
         android:text="@string/arabic_alphabet"
-        android:drawableStart="@drawable/ic_arabic"
+        android:drawableStart="@drawable/ic_arabic_enhanced"
         android:drawablePadding="@dimen/spacing_medium"
         android:background="@drawable/button_arabic"
         style="@style/LargeButton"
@@ -32,7 +32,7 @@
     <Button
         android:id="@+id/btnFrenchAlphabet"
         android:text="@string/french_alphabet"
-        android:drawableStart="@drawable/ic_french"
+        android:drawableStart="@drawable/ic_french_enhanced"
         android:drawablePadding="@dimen/spacing_medium"
         android:background="@drawable/button_french"
         style="@style/LargeButton"
@@ -41,7 +41,7 @@
     <Button
         android:id="@+id/btnWriting"
         android:text="@string/writing_practice"
-        android:drawableStart="@drawable/ic_write"
+        android:drawableStart="@drawable/ic_write_enhanced"
         android:drawablePadding="@dimen/spacing_medium"
         android:background="@drawable/button_writing"
         style="@style/LargeButton" />

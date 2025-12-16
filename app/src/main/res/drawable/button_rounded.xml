@@ -13,11 +13,11 @@
             <corners android:radius="@dimen/small_button_corner_radius" />
             <gradient
                 android:startColor="@color/primary_blue"
-                android:endColor="@color/primary_purple"
+                android:endColor="@color/primary_indigo"
                 android:angle="90" />
             <stroke
                 android:width="2dp"
-                android:color="@color/primary_pink" />
+                android:color="@color/primary_purple" />
         </shape>
     </item>
 </layer-list>

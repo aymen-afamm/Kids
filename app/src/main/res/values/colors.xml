@@ -3,15 +3,19 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     
-    <!-- Enhanced child-friendly pastel colors -->
-    <color name="primary_blue">#A8D8EA</color>
-    <color name="primary_pink">#FFB3BA</color>
-    <color name="primary_green">#B5EAD7</color>
-    <color name="primary_yellow">#FFDFBA</color>
-    <color name="primary_orange">#FFCAB0</color>
-    <color name="primary_purple">#C7CEEA</color>
-    <color name="primary_mint">#B8E6B8</color>
-    <color name="primary_peach">#FFD3A5</color>
+    <!-- Enhanced child-friendly vibrant colors -->
+    <color name="primary_blue">#2196F3</color>
+    <color name="primary_pink">#E91E63</color>
+    <color name="primary_green">#4CAF50</color>
+    <color name="primary_yellow">#FFC107</color>
+    <color name="primary_orange">#FF5722</color>
+    <color name="primary_purple">#FF5722</color>
+    <color name="primary_mint">#00BCD4</color>
+    <color name="primary_peach">#FF9800</color>
+    <color name="primary_coral">#F44336</color>
+    <color name="primary_lime">#8BC34A</color>
+    <color name="primary_teal">#009688</color>
+    <color name="primary_indigo">#3F51B5</color>
     
     <!-- Gradient backgrounds -->
     <color name="background_gradient_start">#FFF8E1</color>
